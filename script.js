@@ -24,7 +24,7 @@ setTimeout(() => {
                                         setTimeout(() => {
                                         
                                           
-                                            countNumText.style.cssText = "font-size:50px;color: #e6a2b8;-webkit-text-stroke-width: 2.5px;-webkit-text-stroke-color: #039BE5;";
+                                            countNumText.style.cssText = "font-size:50px;color: #8d012e;-webkit-text-stroke-width: 2.5px;-webkit-text-stroke-color: #ee8025;";
                                             countNumText.innerText = "Happy Indenpendence day";  
                                             bgImg[0].style.cssText = "display:block;"
                                         },1000)
