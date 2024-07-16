@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Countdown for Independence </title>
+        <style>
+            .countdownBlock{
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 500px;
+                font-size: 32px;
+                background: black;
+                color: white;
+                position: relative;
+            }
+            #count{
+                position: relative;
+                font-family: "Pacifico", cursive;
+                font-size: 110px;
+                color: #d73a6e;
+                text-align: center;
+                -webkit-text-stroke-width: 5.5px;
+                -webkit-text-stroke-color: #c22357;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-shadow: 0 0 15px #9a678d, 0 0 15px #7a2164, 0 0 15px #f537c6;
+            }
+            #count:after {
+                content: "";
+                z-index: -1;
+                position: absolute;
+                color: transparent;
+                -webkit-text-stroke-width: 5.5px;
+                -webkit-text-stroke-color: #440334;
+                top: -5%;
+                left: -0.5%;               
+            }
+            .fireWork{
+                display: none;
+                position: absolute;
+                right: 0;
+                width: 100%;
+                top: 47px;
+            }
+            .fireWork img{
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="countdownBlock">
+            <div id="count"></div>
+            <div class="fireWork">
+                <img src="./fireworks.png" alt="">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
